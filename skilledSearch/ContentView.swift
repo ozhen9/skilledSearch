@@ -12,7 +12,7 @@ struct ContentView: View {
             .resizable()
             .aspectRatio(contentMode: .fit)
 
-          NavigationLink(destination: featured ()) {
+          NavigationLink(destination: SkillScroll ()) {
             Text("Ready to Learn? >")
           }
           .padding()

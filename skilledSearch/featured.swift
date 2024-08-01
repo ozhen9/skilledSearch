@@ -12,7 +12,7 @@ struct featured: View {
     @State private var featureBack = true
     var body: some View {
         
-        
+ 
         //NavigationView {
             VStack {
                     Text ("Featured")

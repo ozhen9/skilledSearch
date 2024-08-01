@@ -12,7 +12,6 @@ import AVKit
 struct SkillView: View {
     
     var body: some View {
-        NavigationStack{
             
             ZStack{
                 
@@ -38,7 +37,7 @@ struct SkillView: View {
 
                                 Spacer()
             }
-            .navigationBarBackButtonHidden(true)
+           // .navigationBarBackButtonHidden(true)
         }
     }
 
@@ -84,7 +83,6 @@ struct SkillView: View {
         override func layoutSubviews() {
                super.layoutSubviews()
                playerLayer.frame = bounds
-        }
     }
 }
 

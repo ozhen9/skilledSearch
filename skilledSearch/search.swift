@@ -21,6 +21,9 @@ struct search: View {
     }
     
     var body: some View {
+        ZStack {
+            Color (.backgroundBlue)
+                .ignoresSafeArea()
             VStack (alignment: .leading){
                 
                 Text ("Ready to Learn?")
@@ -34,9 +37,8 @@ struct search: View {
                     }
                 }
                 .listStyle (.plain)
-
-
             }
+        }
             
           
     }
@@ -44,14 +46,14 @@ struct search: View {
 
 private func detailView(for item: String) -> some View {
         switch item {
-        case "ASL":
-            return AnyView (asl())
-        case "Coding":
-            return AnyView (coding())
+        case "Crocheting":
+            return AnyView (crocheting())
         case "Guitar":
             return AnyView (guitar())
+        case "Baking":
+            return AnyView (baking())
         default:
-            return AnyView (Text ("search"))
+            return AnyView (search())
         }
     }
 

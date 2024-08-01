@@ -67,7 +67,7 @@ struct guitar: View {
                               }
                     Text("\n2. Familiarize yourself with the parts of the guitar using this video tutorial.")
                       .font(.custom("Skrapbook", size: 20))
-                    Text("Anatomy of the guitar.")
+                    Text("  a. Anatomy of the guitar.")
                       .font(.custom("Skrapbook", size:20))
                       .foregroundColor(.blue1)
                       .underline()
@@ -78,7 +78,7 @@ struct guitar: View {
                         }
                     Text("\n3. Download a tuner app.")
                       .font(.custom("Skrapbook", size:20))
-                    Text("\nSome recommended tuner apps are: Fender Guitar Tuner, Pro Guitar Tuner, GuitarTuna, Boss Tuner.")
+                    Text("  a. Some recommended tuner apps are: Fender Guitar Tuner, Pro Guitar Tuner, GuitarTuna, Boss Tuner.")
                       .font(.custom("Skrapbook", size:20))
                     Text("\n4. Begin basic techniques")
                       .font(.custom("Skrapbook", size:20))
@@ -176,7 +176,7 @@ struct guitar: View {
                                         UIApplication.shared.open(url)
                                 }
                             }
-                        Text("      b. Someone You Loved")
+                        Text("    b. Someone You Loved")
                             .font(.custom("Skrapbook", size: 18))
                             .foregroundColor (.blue1)
                             .underline()
@@ -185,7 +185,7 @@ struct guitar: View {
                                     UIApplication.shared.open(url)
                                 }
                             }
-                        Text("      c. Knockin’ on Heaven’s Door")
+                        Text("    c. Knockin’ on Heaven’s Door")
                             .font(.custom("Skrapbook", size: 18))
                             .foregroundColor (.blue1)
                             .underline()
@@ -197,7 +197,7 @@ struct guitar: View {
                         Text("\n9. Understand intervals, chord construction, and key signatures.")
                             .font(.custom("Skrapbook", size: 20))
                                                    
-                        Text("Basic Music Theory for Guitar")
+                        Text("    a. Basic Music Theory for Guitar")
                             .font(.custom("Skrapbook", size: 20))
                             .foregroundColor(.blue1)
                             .underline()
