@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct search: View {
-    @State private var items: [String] = ["ASL", "Coding", "Guitar"]
+    @State private var items: [String] = ["ASL", "Baking", "Braiding Hair", "Card Tricks", "Calligraphy", "Chess", "Coding", "Crocheting", "French", "Gardening", "Guitar", "Journaling & Scrapbooking", "Mediation", "Piano", "Pottery", "Running", "Sewing","Spanish", "Tennis", "Yoga"]
     @State private var searchText: String = ""
     
     //Updates filteredItems list as a user searches
@@ -51,7 +51,7 @@ private func detailView(for item: String) -> some View {
         case "Guitar":
             return AnyView (guitar())
         default:
-            return AnyView (Text ("How did you get here"))
+            return AnyView (Text ("search"))
         }
     }
 
