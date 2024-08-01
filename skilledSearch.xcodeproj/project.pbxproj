@@ -11,7 +11,7 @@
 		BD17F11C2C5BD64000129240 /* baking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17F11B2C5BD64000129240 /* baking.swift */; };
 		BD17F11E2C5BE0DF00129240 /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17F11D2C5BE0DF00129240 /* SkillView.swift */; };
 		BD22FE8D2C5BE282006E6A4C /* bgvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BD22FE8C2C5BE282006E6A4C /* bgvideo.mp4 */; };
-		BD7A16152C59520900DB3D50 /* skilledSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A16142C59520900DB3D50 /* skilledSearchApp.swift */; };
+		BD7A16152C59520900DB3D50 /* SkilledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A16142C59520900DB3D50 /* SkilledApp.swift */; };
 		BD7A16172C59520900DB3D50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7A16162C59520900DB3D50 /* ContentView.swift */; };
 		BD7A16192C59520B00DB3D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7A16182C59520B00DB3D50 /* Assets.xcassets */; };
 		BD7A161C2C59520B00DB3D50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7A161B2C59520B00DB3D50 /* Preview Assets.xcassets */; };
@@ -26,8 +26,8 @@
 		BD17F11B2C5BD64000129240 /* baking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baking.swift; sourceTree = "<group>"; };
 		BD17F11D2C5BE0DF00129240 /* SkillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
 		BD22FE8C2C5BE282006E6A4C /* bgvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgvideo.mp4; sourceTree = "<group>"; };
-		BD7A16112C59520900DB3D50 /* skilledSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skilledSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD7A16142C59520900DB3D50 /* skilledSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skilledSearchApp.swift; sourceTree = "<group>"; };
+		BD7A16112C59520900DB3D50 /* Skilled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skilled.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7A16142C59520900DB3D50 /* SkilledApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkilledApp.swift; sourceTree = "<group>"; };
 		BD7A16162C59520900DB3D50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD7A16182C59520B00DB3D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD7A161B2C59520B00DB3D50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		BD7A16122C59520900DB3D50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD7A16112C59520900DB3D50 /* skilledSearch.app */,
+				BD7A16112C59520900DB3D50 /* Skilled.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,7 +70,7 @@
 			children = (
 				BD7A162A2C5A816400DB3D50 /* Info.plist */,
 				BD22FE8C2C5BE282006E6A4C /* bgvideo.mp4 */,
-				BD7A16142C59520900DB3D50 /* skilledSearchApp.swift */,
+				BD7A16142C59520900DB3D50 /* SkilledApp.swift */,
 				BD7A16162C59520900DB3D50 /* ContentView.swift */,
 				BD7A16332C5BD15100DB3D50 /* SkillScroll.swift */,
 				BD17F11D2C5BE0DF00129240 /* SkillView.swift */,
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD7A16102C59520900DB3D50 /* skilledSearch */ = {
+		BD7A16102C59520900DB3D50 /* Skilled */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD7A161F2C59520B00DB3D50 /* Build configuration list for PBXNativeTarget "skilledSearch" */;
+			buildConfigurationList = BD7A161F2C59520B00DB3D50 /* Build configuration list for PBXNativeTarget "Skilled" */;
 			buildPhases = (
 				BD7A160D2C59520900DB3D50 /* Sources */,
 				BD7A160E2C59520900DB3D50 /* Frameworks */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = skilledSearch;
+			name = Skilled;
 			productName = skilledSearch;
-			productReference = BD7A16112C59520900DB3D50 /* skilledSearch.app */;
+			productReference = BD7A16112C59520900DB3D50 /* Skilled.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BD7A160C2C59520900DB3D50 /* Build configuration list for PBXProject "skilledSearch" */;
+			buildConfigurationList = BD7A160C2C59520900DB3D50 /* Build configuration list for PBXProject "Skilled" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD7A16102C59520900DB3D50 /* skilledSearch */,
+				BD7A16102C59520900DB3D50 /* Skilled */,
 			);
 		};
 /* End PBXProject section */
@@ -170,7 +170,7 @@
 				BD17F11C2C5BD64000129240 /* baking.swift in Sources */,
 				BD7A16232C59591B00DB3D50 /* guitar.swift in Sources */,
 				BD17F11E2C5BE0DF00129240 /* SkillView.swift in Sources */,
-				BD7A16152C59520900DB3D50 /* skilledSearchApp.swift in Sources */,
+				BD7A16152C59520900DB3D50 /* SkilledApp.swift in Sources */,
 				BD7A16302C5A85EF00DB3D50 /* search.swift in Sources */,
 				BD169E262C5BF7A2008A967C /* crocheting.swift in Sources */,
 			);
@@ -305,10 +305,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"skilledSearch/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Skilled/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = skilledSearch/Info.plist;
+				INFOPLIST_FILE = Skilled/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -334,10 +334,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"skilledSearch/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Skilled/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = skilledSearch/Info.plist;
+				INFOPLIST_FILE = Skilled/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -359,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD7A160C2C59520900DB3D50 /* Build configuration list for PBXProject "skilledSearch" */ = {
+		BD7A160C2C59520900DB3D50 /* Build configuration list for PBXProject "Skilled" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD7A161D2C59520B00DB3D50 /* Debug */,
@@ -368,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD7A161F2C59520B00DB3D50 /* Build configuration list for PBXNativeTarget "skilledSearch" */ = {
+		BD7A161F2C59520B00DB3D50 /* Build configuration list for PBXNativeTarget "Skilled" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD7A16202C59520B00DB3D50 /* Debug */,
